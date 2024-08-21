@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        header,footer{
+            background-color: rgb(197, 197, 197);
+            color: rgb(0, 0, 0);
+            text-align: center;
+            padding: 1px;
+
+        }
+        table {
+            width: 75%;
+            border-collapse:collapse
+        }
+
+        th,td {
+            background-color: #effff8;
+            border: 2px solid black;
+        }
+       
+    </style>
+   
+</head>
+
+<body>
+    <header>
+        <h1>Encabezado Principal</h1>
+        <ul class="Secciones">
+            <li><a href="#Estructura">Ir a Estructura</a></li>
+            <li><a href="#Multimedia">Ir a Multimedia</a></li>
+            <li><a href="#Formulario">Ir a Formulario</a></li>
+        </ul>
+    </header>
+    
+<!--4.1 Estructura Basida del Documento HTML  -->
+<section id="Estructura">
+    <h1>1. Estructura Básica del Documento HTML</h1>
+    <p>Este documento HTML tiene una estructura básica que incluye la declaración de DOCTYPE, etiquetas de metadatos y un título.</p>
+</section>
+    <!-- 4.2 Encabezados y Propiedades del texto -->
+    <h1>2. Encabezados y Propiedades del Texto</h1>
+    <h2><b>Este es un texto en negrita.</b></h2>
+    <h3><em>Este es un texto en cursiva.</em></h3>
+    <h4><u>Este es un texto subrayado.</u></h4>
+    <h5>Este es un texto.</h5>
+    <h6>Este es un texto.</h6>
+    <h6><span>Este es un texto.</span></h6>
+    
+    <!-- 4.3 Divisiones y Agrupación de Contenido -->
+    <h1>3. Divisiones y Agrupación de Contenido</h1>
+    <div>
+        <h2>Sección 1</h2> 
+        <p>Contenido de la primera sección</p>
+    </div>
+     <div>
+        <h2>Sección 2</h2>
+        <p>Contenido de la segunda sección</p>
+     </div>
+
+<!-- 4.4 Enlaces y Listas -->
+<h1>4. Enlaces y Listas</h1>
+<div>
+    <p>Visitar <a href="https://www.youtube.com/playlist?list=PLRFOqDrY-6ntD6k5q8yhYXQilnDCChR_Q" target="_blank"> Lista</a> de reproducción</p>
+</div>
+<div>
+    <ul>
+        <li><a href="#Estructura">Ir a Estructura</a></li>
+        <li><a href="#Multimedia">Ir a Multimedia</a></li>
+        <li><a href="#Formulario">Ir a Formulario</a></li>
+    </ul>
+</div>
+    <!-- Lista desordenadda -->
+ <div>
+    <ul>
+        <li>Primer ítem de una lista desordenada</li>
+        <li>Segundo ítem de una lista desordeenada</li>
+    </ul>
+ </div>
+
+    <!-- Lista ordenada -->
+<div>
+    <ol>
+        <li>Primer ítem de una lista ordenada</li>
+        <li>Segundo ítem de una lista ordenada</li>
+    </ol>
+</div>
+
+<!-- 4.5 Elementos Multimedia  -->
+<section id="Multimedia">
+    <h1>5. Elementos Multimedia</h1>
+    <div>
+        <img src="data:image/jpeg;base64,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" width="150" alt="Mirá que te como">
+        <video src="https://video-previews.elements.envatousercontent.com/5b3b6876-9689-4cfe-9692-1cf061a156f6/watermarked_preview/watermarked_preview.mp4" width="200" height="150" controls ></video>
+        <audio src="https://download.blender.org/peach/trailer/trailer_1080p.ogg" controls></audio>
+    </div>
+</section>    
+
+
+<!-- 4.6 Tablas -->
+<h2>6. Tablas</h2>
+<div>
+ <table>
+    <thead>
+        <tr>
+            <th>Columna 1</th>
+            <th>Columna 2</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+          <td>Dato 1</td>
+          <td>Dato 2</td>
+        </tr>
+        <tr>
+            <td>Dato 3</td>
+            <td>Dato 4</td>
+        </tr>
+    </tbody>
+ </table>
+</div>
+
+<!-- 4.7 Formularios -->
+ <section id="Formulario">
+    <h1>7. Formulario.</h1>
+   <div>
+    <form>
+        <label>Nombre</label>
+        <input type="text" name="Nombre"/>
+        <label>Email</label>
+        <input type="email" name="Email"/>
+        <label>Mensaje</label>
+        <textarea name="mensaje"></textarea>
+        <button type="submit">Enviar</button>
+     </form>
+    </div>
+</section>
+<footer>
+   <p>2024 Trabajo Práctico de HTML</p>
+</footer>
+
+</body>
+</html>
